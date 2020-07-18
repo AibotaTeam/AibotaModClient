@@ -7,6 +7,13 @@
       "version" : "2020-07-18-10-11-46",
       "location" : "ultimatedReload.json",
       "priority" : 0
+    },
+    {
+      "title" : "天空工厂4",
+      "name" : "SkyFactory4",
+      "version" : "2020-07-18-15-23-34",
+      "location" : "skyfactory4.json",
+      "priority" : 0
     }
   ]
 }
