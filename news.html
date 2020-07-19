@@ -2,6 +2,17 @@
 <html>
 <head>
 <title>新闻</title>
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+ 
+<!-- 可选的Bootstrap主题文件（一般不使用） -->
+<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap-theme.min.css"></script>
+ 
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+ 
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <style>
 body {
     background: rgba(255, 255, 255, 0.4) no-repeat;
@@ -15,9 +26,13 @@ a { color: #44ff44; font-weight: normal; }
 </head>
 <body>
 	<!-- Note: Java's web renderer is pretty bad so you cannot get too fancy -->
-	<h1>服务器最新消息</h1>
+	
+	<div class="alert alert-success">
+		<h1>服务器最新消息</h1>
+	</div>
+
 	<h3>在左侧选择要玩的模组服，双击即可启动</h3>
-	<p style="color:green"><strong>目前有的模组服：</strong></p>
+	<p class="label" style="color:green"><strong>目前有的模组服：</strong></p>
 	<p style="color:purple">>无限模组服：</p>
 	<div style="margin-left:20px">
 		<p>内含120多个模组:</p>
